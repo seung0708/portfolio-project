@@ -1,0 +1,19 @@
+.btn {
+    display: inline-block;
+    all: unset;
+    outline: revert;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 1.6px;
+    opacity: 0.8;
+}
+
+.btn:hover {
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 300ms;
+}
