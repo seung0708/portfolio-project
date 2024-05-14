@@ -1,0 +1,16 @@
+@import url('./components/container.css');
+@import url('components/helpers.css');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui;
+    margin: 0;
+}
+
+input, textarea, button, select {
+    font: inherit;
+}
+
