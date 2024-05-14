@@ -15,6 +15,7 @@
     --gap: 5rem;
 }
 
+
 * {
     box-sizing: border-box;
 }
@@ -22,6 +23,16 @@
 html {
     background-color: var(--dark-blue);
     color: var(--text-color);
+    scroll-behavior: smooth;
+}
+
+html.light-theme {
+    background-color: var(--beige);
+    --text-color: var(--black);
+    --gray-light: var(--gray-dark);
+    --light-icon: var(--black);
+    --dark-icon: #fff;
+    --anchor-color : var(--black);
 }
 
 body {
