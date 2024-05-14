@@ -1,26 +1,13 @@
+@import url('components/_base.css');
+@import url('components/_defaults.css');
 @import url('./components/container.css');
 @import url('components/helpers.css');
 @import url('components/typography.css');
-@import url('components//buttons.css');
+@import url('components/buttons.css');
+@import url('components/forms.css');
+@import url('components/nav.css');
 
-:root {
-    --dark-blue: #130c24;
-    --primary: #f2d544;
-    --black: #232020;
-    --text-color: #fff;
-    --gray: #999999;
-}
 
-* {
-    box-sizing: border-box;
-}
 
-body {
-    font-family: system-ui;
-    margin: 0;
-}
 
-input, textarea, button, select {
-    font: inherit;
-}
 

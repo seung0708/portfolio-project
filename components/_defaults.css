@@ -1,0 +1,17 @@
+a {
+    color: var(--anchor-color);
+    opacity: 0.8;
+    transition: translate 180ms, opacity 180ms;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+p {
+    color: var(--gray-light);
+}
+
+
+
+    
