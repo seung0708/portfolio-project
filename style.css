@@ -3,6 +3,14 @@
 @import url('components/typography.css');
 @import url('components//buttons.css');
 
+:root {
+    --dark-blue: #130c24;
+    --primary: #f2d544;
+    --black: #232020;
+    --text-color: #fff;
+    --gray: #999999;
+}
+
 * {
     box-sizing: border-box;
 }

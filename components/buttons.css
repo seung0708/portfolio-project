@@ -10,10 +10,43 @@
     line-height: 1.5;
     letter-spacing: 1.6px;
     opacity: 0.8;
+    transition: translate 180ms, opacity 180ms;
 }
 
 .btn:hover {
     opacity: 1;
-    transition-property: opacity;
-    transition-duration: 300ms;
+}
+
+.btn:active {
+    translate: 1px 1px;
+}
+
+.btn--nav {
+    color: var(--text-color);
+    padding: .63rem;
+}
+
+.btn--raised {
+    background-image: url('https://res.cloudinary.com/dbfn5lnvx/image/upload/v1648478882/learnhtmlcss/portfolio/arrow-right.svg');
+    background-repeat: no-repeat;
+    background-position-x: right 20px;
+    background-position-y: center;
+    background-color: var(--primary);
+    color: var(--black);
+    padding: 12px 24px;
+
+}
+
+.btn--line {
+    color: var(--text-color);
+    padding: 12px;
+}
+
+.btn--line::after {
+    content: "";
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid var(--primary);
+    height: 4px;
+    width: 100%;
 }
