@@ -47,6 +47,9 @@ input, textarea, button, select {
 
 @media (max-width: 37.5rem) {
     :root {
-        --gap: 1.88rem;
+        --gap: 30px;
+    }
+    html {
+        font-size: 70%;
     }
 }
