@@ -1,19 +1,16 @@
 #intro {
-    position: relative; /* for scroll-down*/
+    position: relative; /* for scroll-down */
 }
 
 #intro-h1 {
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
-
 #intro-h2 {
-    margin-top: 1rem;
+    margin-top: 0;
     margin-bottom: 40px;
     overflow-wrap: break-word;
 }
 
-p {
-
-    margin: 0;
+#intro p {
+    margin-block: 0;
 }
-

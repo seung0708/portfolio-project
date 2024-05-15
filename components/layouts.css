@@ -1,6 +1,6 @@
 .layout-section {
     padding-bottom: 200px;
-    scroll-margin-top: 20px; /*make the scroll stop approximately 20px before the heading */
+    scroll-margin-top: 20px;
 }
 
 .layout-section-title {
