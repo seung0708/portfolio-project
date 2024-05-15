@@ -16,3 +16,7 @@ p {
 strong {
     font-weight: 400;
 }
+
+blockquote, figure {
+    margin: 0;
+}
